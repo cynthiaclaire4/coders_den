@@ -26,11 +26,13 @@ let together = 9;
 /* declare variables to store your first name, last name, marital status,
  country and age in a single line
 */
+
 let firstName = "chisom"; let lastName = "cynthia"; let maritalStatus = "single"; let country = "Nigeria"; let age = 12;
 
 /* Declare two variables myAge and yourAge and assign 
  them initial values and log to the browser console.
 */
+
 let myAge = "I am 25 years old."
 let yourAge = "You are 30 years old."
 console.log(myAge)
