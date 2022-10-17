@@ -46,3 +46,20 @@ console.log(challenge.indexOf('a'))
 
 //exercise 16
 console.log(challenge.lastIndexOf('a'))
+
+//exercise 17
+let sen = 'You cannot end a sentence with because because because is a conjunction'
+console.log(sen.indexOf('because'))
+
+//exercise 18
+console.log(sen.lastIndexOf('because'))
+
+//exercise 19
+console.log(sen.search('because'))
+
+//exercise 20
+let sent = '  30 Days Of JavaScript  '.
+console.log(sent.trim(' '))
+
+//exercise 21
+console.log(sent.startsWith('30'))
