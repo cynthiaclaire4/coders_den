@@ -58,8 +58,20 @@ console.log(sen.lastIndexOf('because'))
 console.log(sen.search('because'))
 
 //exercise 20
-let sent = '  30 Days Of JavaScript  '.
-console.log(sent.trim(' '))
+let exe = "30 days of javaScript"
+
+console.log(exe.trim(' '))
 
 //exercise 21
-console.log(sent.startsWith('30'))
+console.log(exe.startsWith('30'))
+//exercise 22
+console.log(exe.endsWith('Script'))
+
+//exercise 23
+console.log(exe.match('a'))
+
+//exercise 24
+let us = '30 days of '
+console.log(us.concat('javaScript'))
+// exercise 25
+console.log(us.repeat(2))
